@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class SwapUsingThirdVariable {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        int num1 = scanner.nextInt();
+        int num1 = sc.nextInt();
 
         System.out.print("Enter second number: ");
-        int num2 = scanner.nextInt();
+        int num2 = sc.nextInt();
 
         System.out.println("Before swapping:");
         System.out.println("num1 = " + num1);
@@ -23,6 +23,6 @@ public class SwapUsingThirdVariable {
         System.out.println("num1 = " + num1);
         System.out.println("num2 = " + num2);
 
-        scanner.close();
+        sc.close();
     }
 }
