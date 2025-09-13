@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pattern {
+public class Patten {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -20,5 +20,6 @@ public class pattern {
                 System.out.println("No specific pattern");
             }
         }
+        input.close();
     }
 }
